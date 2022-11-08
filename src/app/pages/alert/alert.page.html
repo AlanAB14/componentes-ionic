@@ -1,0 +1,21 @@
+<app-header titulo="alert"></app-header>
+
+<ion-content class="ion-padding">
+
+    <ion-button (click)="onClick()" expand="block" >
+        Alert
+    </ion-button>
+
+    <ion-button (click)="presentAlertPrompt()" expand="block" >
+        Present Alert Prompt
+    </ion-button>
+
+    <p>
+        {{handlerMessage}}
+    </p>
+
+    <p>
+        {{roleMessage}}
+    </p>
+
+</ion-content>
